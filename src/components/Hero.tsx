@@ -1,6 +1,10 @@
 export default function Hero() {
   return (
-    <section className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-6 text-center">
+    <section className="relative mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center overflow-hidden px-6 text-center">
+      <div className="animate-float-slow absolute right-10 top-32 h-40 w-40 rounded-full bg-lime-200/60 blur-3xl" />
+
+      <div className="animate-float-slow-reverse absolute left-10 top-1/2 h-24 w-24 -translate-y-1/2 rounded-full bg-lime-100/70 blur-2xl" />
+
       <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-500">
         Computer Science Portfolio
       </p>
